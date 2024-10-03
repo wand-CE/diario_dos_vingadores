@@ -26,10 +26,11 @@ class AvengerTile extends StatelessWidget {
         borderRadius: BorderRadius.circular(16),
       ),
       child: ListTile(
-        leading: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(5),
+        contentPadding: EdgeInsets.all(8),
+        leading: ClipRRect(
+          borderRadius: BorderRadius.circular(5),
+          child: Padding(
+            padding: EdgeInsets.symmetric(horizontal: 8),
             child: Image.network(
               avengerImage,
               fit: BoxFit.cover,

@@ -22,13 +22,10 @@ class AvengerApiService extends GetConnect {
       ];
       List<dynamic> avengers = [];
 
-      avengersList.forEach(
-        (avengerName) async {
-          final avenger = await fetchAvenger(avengerName);
-          avengers.add(avenger);
-        },
-      );
-      await Future.delayed(Duration(seconds: 2));
+      for (var avengerName in avengersList) {
+        final avenger = await fetchAvenger(avengerName);
+        avengers.add(avenger);
+      }
 
       return avengers.map((json) => AvengerModel.fromJson(json)).toList();
     } catch (e) {
