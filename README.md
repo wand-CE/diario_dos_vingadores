@@ -1,16 +1,20 @@
-# diario_dos_vingadores
+# Diário dos Vingadores
 
-A new Flutter project.
+## Descrição
+Aplicativo Flutter desenvolvido para listar alguns heróis do grupo dos Vingadores, permitindo a seleção de um Vingador e exibindo suas estatísticas em uma página separada.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Funcionalidades
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Listagem de heróis dos Vingadores.
+- Seleção de um Vingador para visualizar detalhes.
+- Exibição de estatísticas, como Inteligência, Força, Velocidade e Poder.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/user-attachments/assets/09087576-14e2-4509-891c-9044db805c4b" alt="Lista de Vingadores" width="250"/>&emsp;<img src="https://github.com/user-attachments/assets/188aae42-06fc-494d-8c5c-3e85ffaaf4da" alt="Detalhes do Vingador" width="250" />
+
+## Tecnologias Utilizadas
+
+- **Flutter**: Para desenvolvimento da interface do usuário.
+- **GetX**: Para gerenciamento de estados e requisições.
+- **Arquitetura MVC**: Para organizar a estrutura do código, separando a lógica de negócios, a interface do usuário e o controle de fluxo.
